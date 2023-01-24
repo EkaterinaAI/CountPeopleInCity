@@ -1,0 +1,25 @@
+public class Human {
+    String name;
+    String gender;
+    int age;
+
+    public Human() {
+
+    }
+
+    public  Human(String name, int age) {
+        this.name = name;
+        this.age = age;
+
+    }
+
+    public Human(String name, String gender, int age) {
+        this.name = name;
+        this.gender = gender;
+        this.age = age;
+    }
+
+    public void walk(int stepCount) {
+        System.out.println(name + " прошел " + stepCount + " шагов");
+    }
+}
